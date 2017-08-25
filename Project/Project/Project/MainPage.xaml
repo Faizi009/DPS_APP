@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Project"
+             x:Class="Project.MainPage" BackgroundColor="LightSkyBlue">
+    <MasterDetailPage.Master>
+        
+        <ContentPage Title="Master">
+           
+           
+            <ScrollView>
+                <StackLayout BackgroundColor="LightSkyBlue">
+                  <Image Source="farr.png" HeightRequest="250"></Image>
+
+                    <Label Text="Divisional Public School &amp; College Sahiwal" FontSize="25" TextColor="Black"/>
+                    <Label Text="Home" FontSize="20" TextColor="White" HorizontalOptions="Center" x:Name="Btnhome">
+                        <Label.GestureRecognizers >
+                            <TapGestureRecognizer
+                                Tapped="Btnhome_OnClicked" >
+
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    
+                    <Label Text=" The School" TextColor="White" FontSize="20" HorizontalOptions="Center" x:Name="Btnsch">
+                        <Label.GestureRecognizers >
+                            <TapGestureRecognizer
+                                Tapped="Btnsch_OnClicked" >
+
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    
+                    <Label Text="Sections" FontSize="20" TextColor="White" HorizontalOptions="Center" x:Name="Btnsec">
+                        <Label.GestureRecognizers >
+                            <TapGestureRecognizer
+                                Tapped="Btnsec_OnClicked" >
+
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    
+                    <Label Text="Facilites" FontSize="20" TextColor="White" HorizontalOptions="Center" x:Name="Btnfac">
+                        <Label.GestureRecognizers >
+                            <TapGestureRecognizer
+                               Tapped="TapGestureRecognizer_OnTapped" >
+
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    
+                    <Label Text="Alumni" FontSize="20" x:Name="Btnalu" TextColor="White" HorizontalOptions="Center">
+                        <Label.GestureRecognizers >
+                            <TapGestureRecognizer
+                                Tapped="TapGestureRecognizer_OnTapped1">
+
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <Label Text="List of Students" FontSize="20" x:Name="Btnli" TextColor="White" HorizontalOptions="Center">
+                        <Label.GestureRecognizers >
+                            <TapGestureRecognizer
+                                Tapped="TapGestureRecognizer_OnTapped2">
+
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+
+
+                    <Label Text="Contacts" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black" FontSize="20"/>
+                    <Label Text="info@dpsswl.com" HorizontalOptions="Center" FontSize="20" TextColor="OrangeRed" />
+                    <Label Text="@copyright faizan" HorizontalOptions="Center" HorizontalTextAlignment="10"></Label>
+
+                </StackLayout>
+            </ScrollView>
+
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+   
+</MasterDetailPage>

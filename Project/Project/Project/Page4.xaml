@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Page4">
+    <ScrollView>
+
+        <StackLayout BackgroundColor="Wheat">
+
+            <Label TextColor="Blue" Text="Divisional public school and College Sahiwal" FontSize="25" HorizontalOptions="Center"/>
+
+            <Label Text="Facilites" FontSize="30"  TextColor="MediumVioletRed" HorizontalOptions="Center" />
+            <Label Text="General Facilities" TextColor="BlueViolet" FontSize="22"></Label>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="SUMMER SCHOOL/ EDUCATIONAL VISITS" TextColor="Gray" FontSize="20"/>
+            </StackLayout>
+
+            <Label Text="The following activities are organized for all the students at Divisional Public School &amp; College Sahiwal" TextColor="Gray" FontSize="18"/>
+            <Label Text="1.       English Language Teaching (Speaking &amp; Writing)" TextColor="Black" FontSize="15"/>
+            <Label Text="2.       Art and Painting" TextColor="Black" FontSize="15"/>
+            <Label Text="3.       Computer Education" TextColor="Black" FontSize="15"/>
+            <Label Text="4.       Excursions, especially to Northern areas" TextColor="Black" FontSize="15"/>
+            <Label Text="5.       Martial Arts" TextColor="Black" FontSize="15"/>
+            <Label Text="6.       Gymnastics" TextColor="Black" FontSize="15"/>
+            <Label Text="7.       Badminton, Hockey and Table Tennis coaching" TextColor="Black" FontSize="15"/>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="RELIGIOUS TRAINING AND INSTRUCTIONS" TextColor="Gray" FontSize="20"/>
+            </StackLayout>
+            <Label Text="Adequate emphasis is given to Islamic Studies. The Islamiat curriculum includes history of Islam, memorization and understanding of prayers and of selected passages from the Holy Quran." TextColor="Black" FontSize="15"/>
+            <Label Text="The correct recitation of the Holy Quran is emphasized and a Husn-e-Qirat competition is held every year." TextColor="Black" FontSize="15"/>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="TELEPHONE" TextColor="BlueViolet" FontSize="22"></Label>
+            </StackLayout>
+            <Label Text="School has its own Telephone Exchange and all important offices, Parents and teachers can contact each other." TextColor="Black" FontSize="15"></Label>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="LABORATORIES" TextColor="BlueViolet" FontSize="22"></Label>
+            </StackLayout>
+            <Label Text="  Divisional Public School and College has three computer labs and six science labs in all. Out of which" TextColor="Black" FontSize="15"/>
+
+            <Label Text="  Three science labs in Senior School, Physics lab, Chemistry lab., &amp; Biology lab, where the students of VI to VIII, Matric and F.Sc. and class perform experiments" TextColor="Black" FontSize="15"/>
+            <Label Text="  Three Science labs for Girls' branch, Physics lab, Chemistry lab &amp; Bology lab where girls perform their experiments" TextColor="Black" FontSize="15"/>
+            <Label Text="  One Computer Lab with sixteen fully loaded PIII computers hooked up with Windows XP, for Junior section" TextColor="Black" FontSize="15"/>
+            <Label Text="  One Computer Lab with 36 P-IV fully loaded computers in each lab linked with Windows  XP and  server for Senior School" TextColor="Black" FontSize="15"/>
+            <Label Text="  One Computer Lab 17 P-IV Fully loaded computers in each lab linked with windows XP and server for Girls School" TextColor="Black" FontSize="15"/>
+            <Label Text="  The Senior School has a well-equipped Library. The new Library in Senior School is increasing its collection of books rapidly." TextColor="Black" FontSize="15"/>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="LIBRARY" TextColor="BlueViolet" FontSize="22"></Label>
+            </StackLayout>
+            <Label Text="The School has a well equipped automated  library. It is for the students of VI to VIII, Matric, Intermediate. With a sound book collection of about 20,000 books, latest periodicals, daily news papers and digests." TextColor="Black" FontSize="15"/>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="PlayGround" TextColor="BlueViolet" FontSize="22"></Label>
+            </StackLayout>
+            <Label Text="Divisional Public School &amp; College Sahiwal has the dedicated, experienced, coaching staff coaches  young athletes the importance of teamwork, respect for the games and how to develop their athletic abilities on and off the playing field." TextColor="Black" FontSize="15"/>
+            <Label Text="The routine at DPS &amp; IC is no different to the routine being followed in any leading School or College. Great emphasis is laid on discipline. Activities such as PT, Drill and  Games take place regularly." TextColor="Black" FontSize="15"/>
+            <Label Text="The DPS &amp; IC athletic program is respected statewide for its competitiveness and the positive attitudes and good sportsmanship of its players and coaches. The students of DPS &amp; IC have a long history of successes in all sporting venues evidenced by the many awards, acknowledgments and trophies displayed throughout our school and sporting facilities. Sports events at DPS &amp; IC comprises of" TextColor="Black" FontSize="15"/>
+            <Label Text="1  Hockey" TextColor="Black" FontSize="15"/>
+            <Label Text="2  Football" TextColor="Black" FontSize="15"/>
+            <Label Text="3  Table Tennis" TextColor="Black" FontSize="15"/>
+            <Label Text="4  Badminton" TextColor="Black" FontSize="15"/>
+            <Label Text="5  Gymnastics" TextColor="Black" FontSize="15"/>
+            <Label Text="6  Cricket" TextColor="Black" FontSize="15"/>
+            <Label Text="The School is spread over 68 acres of land. The buildings are well-spaced out, allowing for spacious lawns and numerous shady, flowering trees, shrubs and flower beds. The boys are encouraged to take interest in their maintenance and to experience the pleasure which can be derived from flowers and trees." TextColor="Black" FontSize="15"/>
+            <Label Text="The Junior School has its own full size playing fields and lawns equipped with children's playing apparatus." TextColor="Black" FontSize="15"/>
+            <Label Text="The Senior School is provided with t large cricket-cum-athletic fields, full size hockey and football grounds." TextColor="Black" FontSize="15"/>
+            <StackLayout BackgroundColor="Orange">
+                <Label Text="Multipurpose Hall" TextColor="BlueViolet" FontSize="22"></Label>
+            </StackLayout>
+            <Label Text="   Divisional Public School &amp; College has its own full equipped Large Multipurpose hall for all indoor activities." TextColor="Black" FontSize="15"/>
+            <Label Text="  One badminton and two table tennis courts are available for the students of  Divisional Public School &amp; College Sahiwal." TextColor="Black" FontSize="15"/>
+
+
+            <StackLayout BackgroundColor="DarkOrange" >
+                <Label Text="Gallery" TextColor="Blue" FontSize="30" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Image Source="lab.JPG" HeightRequest="185"/>
+            <Image Source="comp.JPG" HeightRequest="185"/>
+            <Image Source="com.JPG" HeightRequest="185"/>
+            <Image Source="labo.JPG" HeightRequest="185"/>
+            <Image Source="lib.JPG" HeightRequest="185"/>
+            <Image Source="gro.JPG" HeightRequest="185"/>
+            <Image Source="gym.JPG" HeightRequest="185"/>
+            <Image Source="mul.JPG" HeightRequest="185"/>
+           
+            
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

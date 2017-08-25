@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Page1">
+    <ContentPage.Content>
+       <ScrollView>
+        <StackLayout BackgroundColor="AntiqueWhite">
+            
+            <Image Source="dp.JPG"/>
+                <Label BackgroundColor="AntiqueWhite" Text="Divisional Public School, Sahiwal"  TextColor="Black" FontSize="27"/>
+            <StackLayout BackgroundColor="LightSkyBlue">
+                <Label Text="Message by the Principal" HorizontalOptions="Center" FontSize="20" TextColor="Black"/>
+                    <Label FontSize="15" Text="Divisional Public School and College Sahiwal is an institution with infinite possibilities. May it be the field of academic, sports, co/extra-curricular activities, or development, the DPS presents tremendous challenges for a Principal. It is by no means an easy task to match the testing standards set by the founder Principal of DPS Sahiwal Lt. Col. (R) M. Arif Chohan. In a short span of time, the DPS Sahiwal has become the first choice of parents at Sahiwal, because of the outstanding achievements in curricular and co-curricular fields. The grandeur of the vast campus of DPS, arrangements of its lawns and floriculture put it in bracket with the best institutions of the province."  TextColor="Black" />
+                    <Label Text=" The strength of DPS is the dedicated and extremely hard working faculty, which owns the DPS and feels responsible for any success or failure. DPS lays special emphasis on quality of teaching and learning and we are proud that our faculty puts in its best to come up to the standards set by the DPS." TextColor="Black" FontSize="15"></Label>
+                    <Label Text=" The Community and Board of Governors of Sahiwal Educational Trust always take keen interest in the development activities and keep a close watch on the performance of the institution. Feeling of community ownership always keeps the school administration on its toes. Parents are always regarded as major stake holders. We always respect their opinion and try to mould ourselves accordingly if the opinion is in the benefit of the institution and community." FontSize="15" TextColor="Black" ></Label>
+                    <Label Text="  DPS is the most cherished dream of every student at Sahiwal and is in the prayers of every parent." FontSize="15" TextColor="Black"/>
+                    <Label Text=" May Allah help us and enable us to live up to their desired standards." FontSize="15" TextColor="Black"/>
+                
+           
+            </StackLayout>
+            <Label Text="Created by" TextColor="DarkBlue" FontSize="21" HorizontalOptions="Center"/>
+            <Label Text="Faizan (Software engr)" FontSize="21" HorizontalOptions="Center"></Label>
+            </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

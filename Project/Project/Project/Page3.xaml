@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Page3">
+    <ScrollView>
+    <StackLayout BackgroundColor="Wheat">
+    <Label TextColor="Blue" Text="Divisional public school and College Sahiwal" FontSize="25" HorizontalOptions="Center"/>
+
+    <Label Text="Sections" FontSize="30"  TextColor="MediumVioletRed" HorizontalOptions="Center" />
+    <Label Text="Junior School" TextColor="BlueViolet" FontSize="22"></Label>
+   <Label FontSize="15" TextColor="Black" Text="In Junior School the emphasis is on continuing to provide a firm foundation in reading, writing and mathematical skills. We set high standards for our students and give them every encouragement to work to the best of their ability thereby realizing their full potential"></Label>
+    <Label HorizontalTextAlignment="Start" Text="Education at Divisional Public School and College Sahiwal focuses on the whole person. The School encourages children to develop not only as members of the School, but also of the local, regional and global communities. Visiting speakers, drama groups, educational plays, presentations and concerts extend and broaden each child's curricular knowledge." FontSize="15" TextColor="Black"/>
+        <Label Text="SENIOR and GIRLS SCHOOL" TextColor="BlueViolet" FontSize="22"/>
+        <Label Text="The Curriculum" TextColor="Green" FontSize="20"/>
+        <Label Text="Divisional Public School and College Sahiwal  believes in retaining the best traditional approaches and values in the education of our pupils, in order for them to become well rounded individuals." TextColor="Black" FontSize="15"/>
+        <Label Text="Our broad based curriculum places a high priority on numeracy and literacy. Every child is given a chance to shine within small teaching groups. There is no streaming or setting in the early years as we feel that all our pupils should have identical opportunities, specialization is left as late as possible so that career decisions are not made at too early a stage." TextColor="Black" FontSize="15"/>
+        <Label Text="Homework" TextColor="Green" FontSize="20"/>
+        <Label Text="Divisional Public School and College Sahiwal believes strongly in the value of homework which is set according to the needs and abilities of each class and child. The amount of homework increases as each child or class progresses through the school and we work closely with parents via a homework diary that is signed regularly." TextColor="Black" FontSize="15"/>
+        <Label Text="IT Centre" TextColor="DarkBlue" FontSize="25"/>
+        <Label Text="Computer literacy is increasingly becoming a critical factor in success in the workplace. That's why IT Centre at DPS and IC is established. DPS and IC Computer Department comprises of a specialized team of  talented and supportive teachers to provide excellence in training to the enrolled students." TextColor="Black" FontSize="15"/>
+        <Label Text="With plenty of labs available, equipped with high-end computer workstations, our facilities are second to none. The range of software covered in our courses is impressive, ranging from general productivity applications." TextColor="Black" FontSize="15"/>
+        <StackLayout BackgroundColor="AntiqueWhite">
+            <Label Text="PHOTOS" FontSize="30" HorizontalOptions="Center" TextColor="Black"/>
+            <Label Text="Junior Section" FontSize="25" TextColor="Blue" HorizontalOptions="Center"></Label>
+            <Image Source="jun.JPG" HorizontalOptions="Center"></Image>
+
+                <Label Text="PHOTOS" FontSize="30" HorizontalOptions="Center" TextColor="Black"/>
+            <Label Text="Girl Section" FontSize="25" TextColor="Blue" HorizontalOptions="Center"></Label>
+            <Image Source="girl.JPG" HorizontalOptions="Center"></Image>
+
+                <Label Text="PHOTOS" FontSize="30" HorizontalOptions="Center" TextColor="Black"/>
+            <Label Text="Senior Section" FontSize="25" TextColor="Blue" HorizontalOptions="Center"></Label>
+            <Image Source="main.JPG" HorizontalOptions="Center"></Image>
+            </StackLayout>
+
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

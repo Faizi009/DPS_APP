@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Page6" BackgroundColor="Bisque">
+   
+    <StackLayout >
+      <Label  TextColor="Blue" Text="Divisional public school &amp; College Sahiwal" FontSize="25" HorizontalOptions="Center"/>
+        <Label Text="List of Registerd Students" TextColor="Black" FontSize="22"></Label>
+        <ListView x:Name="Project" Margin="20" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        
+                        <StackLayout BackgroundColor="AntiqueWhite">
+
+                            <Label  TextColor="Red" Text="{Binding Id} "></Label>
+                            <Label TextColor="Black" Text="{Binding Name}"></Label>
+                            <Label TextColor="Black" Text="{Binding Address}"></Label>
+                            <Label TextColor="Black" Text="{Binding Session}"></Label>
+                            <Label TextColor="Black" Text="{Binding Mail}"></Label>
+
+                        </StackLayout>
+                       
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+       
+        </ListView>
+      
+
+
+
+    </StackLayout>
+  
+</ContentPage>

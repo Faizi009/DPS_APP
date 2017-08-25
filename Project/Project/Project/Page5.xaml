@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Page5" BackgroundColor="Bisque">
+    <ScrollView>
+        <StackLayout  BackgroundColor="Bisque">
+            <Image  Source="farr.png" HeightRequest="180"></Image>
+        <Label TextColor="Blue" Text="Divisional public school &amp; College Sahiwal" FontSize="25" HorizontalOptions="Center"/>
+            <Label Text="Register Your Self"  TextColor="Red" FontSize="22" HorizontalOptions="Center"/>
+
+        <Entry  Placeholder="Name" x:Name="entuser" VerticalOptions="Center" />
+        <Entry Placeholder="Address" x:Name="pass" VerticalOptions="Center" />
+        <Entry Placeholder="Session (2012/2014)" x:Name="sess" VerticalOptions="Center" />
+        <Entry Placeholder="Email or Mobile no" x:Name="Emno" VerticalOptions="Center" />
+        <Button Text="Register" HorizontalOptions="Center" x:Name="Btnreg" Clicked="Btnreg_OnClicked" />
+      
+
+    </StackLayout>
+        </ScrollView>
+</ContentPage>

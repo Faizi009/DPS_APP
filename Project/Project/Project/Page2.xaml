@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Page2">
+    <ScrollView>
+        <StackLayout BackgroundColor="Wheat">
+        <Label TextColor="Blue" Text="Divisional public school and College Sahiwal" FontSize="25" HorizontalOptions="Center"/>
+
+        <Label Text="History" FontSize="30" TextColor="MediumVioletRed" HorizontalOptions="Center" />
+            <Label TextColor="Black" HorizontalOptions="Center" Text="Our journey began in 1986 and since then there has been no looking back. The institution remains committed to being a premier institution of the locality. Our resolve is unparalleled, our efforts unrelenting and our vision truly progressive. Divisional Public School and College Sahiwal was established in 1986 under the aegis of Sahiwal Educational Trust in a rented building in Farid Town. It was shifted to its present capacious premises stretching over 68 acres on 27th Ramadan 1407 Haijri, the 25th May 1987. Mian Muhammad Nawaz Sharif, the then Chief Minister Punjab inaugurated the present Senior School Block on 15th September 1988. Science Block was added in 1991. Junior School building was constructed in 1994. Girls School was established in 1997. School Mosque was constructed in 1998. D.P.S. was upgraded as Inter College in year 2000. Since its establishment, the school has been producing excellent results and has proved itself a quality institution. D.P.S. has now become the first choice of the parents." FontSize="18" />
+            <Label TextColor="Black" HorizontalOptions="Center" Text="Founder Principal" FontSize="30" />
+            <Image Source="chohan.JPG" HorizontalOptions="Center"/>
+            <Label Text=" Lt. Col. (R) M. Arif Chohan" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+            <Label TextColor="Black" HorizontalOptions="Center" Text="Founder Chairman" FontSize="30" />
+
+            <Image Source="syed.JPG" HorizontalOptions="Center" />
+            <Label Text="Syed Tajammual Abbas Shah" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+            <Label Text="Ex. Deputy Commissioner Sahiwal" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+            <Label TextColor="Black" HorizontalOptions="Center" Text="The Principal" FontSize="30" />
+
+            <Image Source="anwar.JPG" HorizontalOptions="Center" HeightRequest="200"/>
+            <Label Text=" Brig. (R) Syed Anwar-ul-Hasan Kirmani" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+            <Label TextColor="Black" HorizontalOptions="Center" Text="The Chairman  " FontSize="30" />
+
+            <Image Source="chairman.JPG" HorizontalOptions="Center" HeightRequest="250"/>
+            <Label Text=" Mr. Babar Hayyat Tarar" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+            <Label Text="Chairman Sahiwal Educational Trust Sahiwal" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+            <Label Text="( Commissioner Sahiwal Division)" HorizontalOptions="Center" TextColor="Black" FontSize="15"/>
+<StackLayout BackgroundColor="Bisque" Margin="40">
+            <Label  Text="The Principals" HorizontalOptions="Center" TextColor="PaleVioletRed" FontSize="30"/>
+    <StackLayout BackgroundColor="Coral">    
+    <Label  Text=" Lt. Col. (R) M. Arif Chohan" FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label   Text="(Founder Principal)   From 10-05-1986 to 09-06-2004" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+    </StackLayout>
+    <StackLayout BackgroundColor="Chocolate">
+                <Label  Text="Col. (R) M. A.  Saleemi " FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="(Principal)    From  10-06-2004 to 05-08-2005" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+    </StackLayout>
+    <StackLayout BackgroundColor="Coral">
+                <Label  Text=" Rai Masood Ahmad Khan " FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label   Text="Principal   From  06-08-2005 to 31-10-2005" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+
+    </StackLayout>
+    <StackLayout BackgroundColor="Chocolate">
+        
+   
+                <Label Text=" Brig. (R) Syed Anwar-ul-Hasan Kirmani" FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="(Principal)    From  01-11-2005 to 28-02-2006" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+
+
+    </StackLayout>
+    <StackLayout BackgroundColor="Coral">
+                <Label  Text=" Prof. (R) Qamar-ul-Zaman Khan" FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="(Acting Principal)   From  01-03-2006 to 31-03-2006" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+    </StackLayout>
+    <StackLayout BackgroundColor="Chocolate">
+                <Label  Text="Muhammad Safdar Jang Khan" FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="(Principal)    From  31-03-2006 to 28-09-2006" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+    </StackLayout>
+    <StackLayout BackgroundColor="Coral">
+                <Label  Text="Prof. (R) Qamar-ul-Zaman Khan" FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="(Acting Principal)   From  29-09-2006 to 16-04-2007" FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+    </StackLayout>
+    <StackLayout BackgroundColor="Chocolate">
+                <Label  Text="Brig. (R) Syed Anwar-ul-Hasan Kirmani" FontSize="20" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="(Principal)     From  16 -04-2007 to Onward...." FontSize="15" HorizontalOptions="Center" TextColor="Brown"></Label>
+    </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+</ContentPage>
